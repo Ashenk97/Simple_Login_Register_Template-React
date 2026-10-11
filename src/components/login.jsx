@@ -6,7 +6,7 @@ export default class Login extends Component {
       <form>
         <h3>Sign In</h3>
 
-        <div className="form-group">
+        <div className="mb-3">
           <label>Email address</label>
           <input
             type="email"
@@ -15,7 +15,7 @@ export default class Login extends Component {
           />
         </div>
 
-        <div className="form-group">
+        <div className="mb-3">
           <label>Password</label>
           <input
             type="password"
@@ -24,23 +24,23 @@ export default class Login extends Component {
           />
         </div>
 
-        <div className="form-group">
-          <div className="custom-control custom-checkbox">
+        <div className="mb-3">
+          <div className="form-check">
             <input
               type="checkbox"
-              className="custom-control-input"
+              className="form-check-input"
               id="customCheck1"
             />
-            <label className="custom-control-label" htmlFor="customCheck1">
+            <label className="form-check-label" htmlFor="customCheck1">
               Remember me
             </label>
           </div>
         </div>
 
-        <button type="submit" className="btn btn-primary btn-block">
+        <button type="submit" className="btn btn-primary w-100">
           Submit
         </button>
-        <p className="forgot-password text-right">
+        <p className="forgot-password text-end">
           Forgot <a href="#">password?</a>
         </p>
       </form>
